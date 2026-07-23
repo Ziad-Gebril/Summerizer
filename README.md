@@ -26,7 +26,5 @@ An automated pipeline that fetches transcripts from YouTube videos, chunks and s
 
 ## 🔄 Pipeline Workflow
 
-[ YouTube Video URL ] ──► [ youtube-transcript-api ] ──► [ Full English Transcript ]
-                                                                 │
-                                                                 ▼
- [ Arabic Summary ] ◄── [ NLLB-200 Translation ] ◄── [ BART-Large CNN Summarizer ]
+[ YouTube Video URL ] ──► [ youtube-transcript-api ] ──► [ Full English Transcript ] ──► [ BART-Large CNN Summarizer ] ──► [ NLLB-200 Translation ] ──► [ Arabic Summary ]
+
